@@ -1,0 +1,96 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@android:color/darker_gray"
+              android:orientation="vertical"
+             tools:context="com.bignerdranch.android.tinglee.FragTingleData">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="5dp">
+        <TextView
+            android:layout_width="111dp"
+            android:layout_height="wrap_content"
+            android:padding="20dp"
+            android:text="@string/headline"/>
+        <TextView
+            android:id="@+id/txt_lastThing"
+            android:layout_width="250dp"
+            android:layout_height="45dp"
+            android:layout_gravity="center"
+            android:background="@android:color/white"/>
+    </LinearLayout>
+
+    <!-- What new thing -->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="5dp">
+        <TextView
+            android:layout_width="111dp"
+            android:layout_height="wrap_content"
+            android:padding="20dp"
+            android:text="@string/what_thing"/>
+
+        <EditText
+            android:id="@+id/txt_what"
+            android:layout_width="250dp"
+            android:layout_height="45dp"
+            android:layout_gravity="center"
+            android:background="@android:color/white"/>
+    </LinearLayout>
+
+    <!-- Where is new thing -->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="5dp">
+        Jacob Avlund and Jørgen Staunstrup Mobile App Development Spring 2017
+        <TextView
+            android:layout_width="111dp"
+            android:layout_height="wrap_content"
+            android:padding="24dp"
+            android:text="@string/where"/>
+
+        <EditText
+            android:id="@+id/txt_where"
+            android:layout_width="250dp"
+            android:layout_height="45dp"
+            android:layout_gravity="center"
+            android:background="@android:color/white"/>
+    </LinearLayout>
+
+    <!-- Button to add new thing-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/btn_add"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/holo_red_light"
+            android:layout_margin="5dp"
+            android:layout_gravity="center"
+            android:text="@string/add_button"
+            android:layout_weight="1"/>
+
+        <!-- Button to list all things-->
+        <Button
+            android:id="@+id/btn_listThing"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/holo_red_light"
+            android:layout_margin="5dp"
+            android:layout_gravity="center"
+            android:text="@string/list_all_Things_button"
+            android:layout_weight="1"
+            android:visibility="gone"/>
+    </LinearLayout>
+
+
+</LinearLayout>

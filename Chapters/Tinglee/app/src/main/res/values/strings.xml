@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Tinglee</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="headline">last added</string>
+    <string name="what_thing">what thing?</string>
+    <string name="where">where?</string>
+    <string name="add_button">ADD NEW THING</string>
+    <string name="list_all_Things_button">List All Things</string>
+
+</resources>
+
